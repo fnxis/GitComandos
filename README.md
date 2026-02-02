@@ -221,6 +221,16 @@ git reset --soft HEAD~1
 git reset --mixed HEAD~1
 git reset --hard HEAD~1
 ```
+### Limpa os arquivos novos
+
+```bash
+git clean -df
+```
+### Limpa as modificações 
+
+```bash
+git checkout -- .
+```
 
 ---
 
