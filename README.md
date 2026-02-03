@@ -234,6 +234,29 @@ git checkout -- .
 
 ---
 
+## ⚙ Editor VIM
+
+### habilitar modo de edicao
+
+```bash
+i
+```
+### Sair do VIM salvando alteracoes 
+
+```bash
+<ESC>
+:wq
+<ENTER>
+```
+### Sair do VIM descartando alteracoes 
+
+```bash
+<ESC>
+:q!
+<ENTER>
+```
+---
+
 ## 🧹 Stash (Guardar alterações temporárias)
 
 ### Salvar alterações
