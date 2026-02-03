@@ -9,6 +9,38 @@ Este repositório tem como objetivo servir como **guia completo e prático de co
 O **Git** é um sistema de controle de versão distribuído que permite registrar alterações em arquivos, colaborar em equipe e manter o histórico completo de um projeto.
 
 ---
+## 🚨 Conflitos
+
+Quando usamos um repositorio local desatualizado podemos cair em varios problemas de conflitos ao salvar os arquivos para o repositorio local.
+
+### Caso de um conflito em arquivos diferentes basta executar esses comandos
+
+```bash
+git pull origin main
+```
+colocar o commit pelo VIM
+```bash
+git push
+```
+
+### Caso de um conflito em arquivos **iguais** basta executar esses comandos
+
+```bash
+git pull origin main
+```
+Entrar no Codigo e decidir qual ira permanecer
+```bash
+git add .
+git commit -m "comentario"
+git push
+```
+
+### Caso de um upload de arquivos forçados, removendo tudo do repositorio remoto e suindo somente os arquivos do repositorio local
+```bash
+git push -f
+```
+
+---
 
 ## 🚀 Configuração Inicial do Git
 
