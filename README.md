@@ -17,9 +17,7 @@ Quando usamos um repositorio local desatualizado podemos cair em varios problema
 
 ```bash
 git pull origin main
-```
-colocar o commit pelo VIM
-```bash
+"colocar o commit pelo VIM"
 git push
 ```
 
@@ -27,9 +25,7 @@ git push
 
 ```bash
 git pull origin main
-```
-Entrar no Codigo e decidir qual ira permanecer
-```bash
+"Entrar no Codigo e decidir qual ira permanecer"
 git add .
 git commit -m "comentario"
 git push
